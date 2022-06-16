@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/libcpu/arm/cortex-m3/context_gcc.S
+
+E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/startup/startup_stm32f103xb.s
+

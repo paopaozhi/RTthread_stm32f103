@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RTOS_cmake"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RTOS_cmake.elf">
+				<Option output="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/RTOS_cmake.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/bsp"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/include"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/include/libc"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTOS_cmake.elf"/>
+					<CompileFile command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RTOS_cmake.elf/fast">
+				<Option output="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/RTOS_cmake.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/bsp"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/include"/>
+					<Add directory="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/include/libc"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="e:\paopaozhipath\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 RTOS_cmake.elf/fast"/>
+					<CompileFile command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/paopaozhipath/mingw64/bin/make.exe -f &quot;E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc/gpio.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc/main.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc/stm32f1xx_it.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Inc/usart.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/gpio.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/main.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/stm32f1xx_it.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/syscalls.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/system_stm32f1xx.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Core/Src/usart.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Device/ST/STM32F1xx/License.md">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/CMSIS/LICENSE.txt">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/License.md">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/bsp/board.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/bsp/rtconfig.h">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/libcpu/arm/cortex-m3/context_gcc.S">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/libcpu/arm/cortex-m3/cpuport.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/clock.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/components.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/cpu.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/idle.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/ipc.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/irq.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/kservice.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/mem.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/memheap.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/mempool.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/object.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/scheduler.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/slab.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/thread.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/RTOS/src/timer.c">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/STM32F103RBTx_FLASH.ld">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/startup/startup_stm32f103xb.s">
+			<Option target="RTOS_cmake.elf"/>
+		</Unit>
+		<Unit filename="E:/MCU/STM32F1/STM32F103RB/RTOS_cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
